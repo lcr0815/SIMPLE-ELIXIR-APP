@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+"# CODE-ASSESSMENT" 
+when will this change
+=======
 # CODE-ASSESSMENT
 
 **TODO: Add description**
@@ -24,3 +28,4 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/servy](https://hexdocs.pm/servy).
 
+>>>>>>> 676e3e5a1114f55eca48960e60daa9875f48f1c9
