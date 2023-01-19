@@ -6,9 +6,7 @@
 
 The package can be viwed at 
 lc_estee_auder_code_assessment` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
+```elixir def deps do
   [
     {:lc_estee_auder_code_assessment, "~> 0.1.0"}
   ]
