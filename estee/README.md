@@ -4,11 +4,9 @@
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `lc_estee_auder_code_assessment` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
+The package can be viwed at 
+lc_estee_auder_code_assessment` to your list of dependencies in `mix.exs`:
+```elixir def deps do
   [
     {:lc_estee_auder_code_assessment, "~> 0.1.0"}
   ]
