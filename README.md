@@ -11,16 +11,17 @@ The package can be viewed at github on a request basis.
 
 ## Project description
 
-The assignment solution being presented is an ELIXIR/PHOENIX application solution made up of two parts: </br>
-    1) A PostgreSQL database with a single table</br>
-    2) A PHOENIX back-end.</br> 
-    3) A Phoenix/LiveView front-end page</br>
-    4) A Google Maps locations interface<strong>FUTURE</strong></br>
-
+The assignment solution being presented is an ELIXIR/PHOENIX application solution made up of several parts: </br>
+<ul>
+    <li>1) A PostgreSQL database with a single table</li>
+    <li>2) A PHOENIX back-end.</li>
+    <li>3) A Phoenix/LiveView front-end page</li>
+    <li>4) A Google Maps locations interface <strong>FUTURE</strong></li>
+</ul>
 Currently, the UI shows two pages, a report page showing the truck listing and an id selected truck information page.
 
 The web frontend lists all of the food trucks available rendering the names of truck companies in the city. There is also a container webpage featuring a single food truck showing the company, food type, truck type and the location coordinates to help in the marketing efforts. In a future version, the map coordinates will render a google map of the location coordinates.
 
-The applications uses a PostgreSQL database  where the PHOENIX app makes queries and renders the data on the web page.</br>>
+The applications uses a PostgreSQL database  where the PHOENIX app makes queries and renders the data on the web page.</br>
 
 Screen shots have been included.
