@@ -1,0 +1,33 @@
+<h1>Code Assessment Project</h1>
+<h2>Mobile Foodtruck Locations</h2>
+<table>
+  <thead>
+    <tr>
+
+      <th>Applicant</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <th >location</th>
+    <th style="width: 85px;">Fac type</th>
+    <th>Applicant</th>
+    <th>Food type</th>
+    </tr>
+<%= for locations <- @locations do %>
+    <tr>
+      <td><%= locations.location %></td>
+      <td><%= locations.facility_type %></td>
+      <td><%= locations.applicant %></td>
+      <td><%= locations.food_items%></td>
+      <td>
+        <span><%= link "Show", to: Routes.locations_path(@conn, :show, locations) %></span>
+        <span><%= link "Edit", to: Routes.locations_path(@conn, :edit, locations) %></span>
+        <span><%= link "Delete", to: Routes.locations_path(@conn, :delete, locations), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Locations", to: Routes.locations_path(@conn, :new) %></span>

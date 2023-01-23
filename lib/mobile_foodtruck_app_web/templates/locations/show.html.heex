@@ -1,0 +1,22 @@
+<h1>Show Food Truck Location</h1>
+<table>
+    <thead>
+        <tr>
+            <th style="width: 115px;">Company</th>
+            <th style="width: 150px;">Food type</th>
+            <th style="width: 75px;">Fac type</th>
+            <th style="width: 50px;">location</th>
+            </tr>
+          </thead>
+    <tbody>
+      <tr>
+        <td><%= @locations.applicant %></td>
+        <td><%= @locations.food_items%></td>
+        <td><%= @locations.facility_type %></td>
+        <td><%= @locations.location %></td>
+      </tr>
+  </tbody>
+</table>  
+
+<span><%= link "Edit", to: Routes.locations_path(@conn, :edit, @locations) %></span> |
+<span><%= link "Back", to: Routes.locations_path(@conn, :index) %></span>
