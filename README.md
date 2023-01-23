@@ -1,17 +1,26 @@
-Date:         19-Jan-23
-Author:       Luis-Carlos(LC) Rodriguez
-Description:  ELIXIR CODE-ASSESSMENT
+Date:         19-Jan-23</br>
+Author:       Luis-Carlos(LC) Rodriguez</br>
+Description:  ELIXIR CODE-ASSESSMENT</br>
 
-This project is a presentation of the elixir programing language
-for the purpose of showing the exlir programming language dexterity to how hiring companies for job interviews
+This project is a presentation of the ELIXIR/PHONIX web developemnt full-stack framework
+for the purpose of showing the ELIXIR programming language dexterity to hiring companies.
 
 ## Installation
 
 The package can be viewed at github on a request basis.
 
-The assignment solution being presented is an ELIXIR/PHOENIX application solution made up of a phoenix back-end with a Phoenix/Live front page with a truck listing and a applicant's information page.
+## Project description
 
-The web API that returns a listing of the food trucks. You can write a web frontend that visualizes the nearby food trucks for a given place. The names of all the taco trucks in the city are displayed as list. there is also a container with a placeholder webpage featuring the name of each food truck to help their marketing efforts. 
+The assignment solution being presented is an ELIXIR/PHOENIX application solution made up of two parts: </br>
+    1) A PostgreSQL database with a single table</br>
+    2) A PHOENIX back-end.</br> 
+    3) A Phoenix/LiveView front-end page</br>
+    4) A Google Maps locations interface<strong>FUTURE</strong></br>
 
-The applications uses a postgresql database as its storage unit where the phoenix app makes queries and displays the data on the web page. Screen shots have been included.
+Currently, the UI shows two pages, a report page showing the truck listing and an id selected truck information page.
 
+The web frontend lists all of the food trucks available rendering the names of truck companies in the city. There is also a container webpage featuring a single food truck showing the company, food type, truck type and the location coordinates to help in the marketing efforts. In a future version, the map coordinates will render a google map of the location coordinates.
+
+The applications uses a PostgreSQL database  where the PHOENIX app makes queries and renders the data on the web page.</br>>
+
+Screen shots have been included.

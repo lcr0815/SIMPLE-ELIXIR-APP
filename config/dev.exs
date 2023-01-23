@@ -3,13 +3,12 @@ import Config
 # Configure your database
 config :mobile_foodtruck_app, MobileFoodtruckApp.Repo,
   username: "postgres",
-  password: "DCU!123!hoy",
+  password: "",
   hostname: "localhost",
   database: "mobile_foodtruck_repo",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
-  pool_size: 10, 
-  port: 5433
+  pool_size: 10
 
 # For development, we disable any cache and enable
 # debugging and code reloading.
